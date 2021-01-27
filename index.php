@@ -140,7 +140,7 @@
 
                             <div class="row my-4">
                                 <div class="col">
-                                    <h5 class="card-header">পরীক্ষা সংক্রান্ত</h5>
+                                    <h5 class="card-header">পরীক্ষা সংক্রান্ত details</h5>
                                     <div class="card-body">
                                         <!-------->
                                         <div class="row">
