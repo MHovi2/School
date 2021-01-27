@@ -1,0 +1,51 @@
+body {
+font-family: 'Monda', sans-serif;
+background: url(full-bloom.png)repeat scroll 0 0 #fff;
+}
+
+.gr-a{
+background: rgba(255, 255, 255, 0.5);
+}
+.gr-b{
+background-image: linear-gradient(to bottom, #0d4eb0, #005bb8, #0067be, #0073c3, #0d7fc8);
+}
+.dropdown:hover> .dropdown-menu {
+display: block;
+}
+.dropdown-menu {
+background-image: linear-gradient(to bottom, #0d4eb0, #005bb8, #0067be, #0073c3, #0d7fc8);
+}
+.dropdown-item{
+ color: #ffffff;
+}
+.dropdown-item:hover{
+background-image: linear-gradient(to bottom, #005de9, #0065e5, #006ce0, #0072da, #0077d3);
+color: #ffeffe;
+}
+.header h2{
+padding-top: 30px;
+padding-left: 105px;
+color: #ffffff;
+text-shadow: 1px 1px 0px #898999;
+}
+.header p{
+padding-left: 105px;
+color:#ffeffe;
+}
+.card-header{
+background-image: linear-gradient(to right, #0d4eb0, #005bb8, #0067be, #0073c3, #0d7fc8);
+color:#ffeffe;
+}
+.card-body{
+background-image: linear-gradient(to right, #f4f4f4, #f7f7f7, #f9f9f9, #fcfcfc, #ffffff);
+}
+@media screen and (max-width: 1000px) {
+.container h2{      padding-top: 30px;
+padding-left: 105px;
+font-size: 20px;
+}
+@media screen and (max-width: 900px) {
+.container h2 {
+padding-left: 105px;
+}
+}
